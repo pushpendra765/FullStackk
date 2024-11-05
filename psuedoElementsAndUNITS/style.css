@@ -1,0 +1,43 @@
+/* Pseudo Elements */
+/* 1.firstline:-tagname::firstline{}*/
+p::first-line{
+    background-color: blue;
+}
+/* 2.first letter:- tagname::first-letter{} */
+p::first-letter{
+    font-size: larger;
+    color: red;
+}
+/* 3.Selection :-tagname::selection{} */
+p::selection{
+  background-color: black;
+  color: blue;
+}
+/* after / before is used to add anything before any tag */ 
+p::before{
+    content: "Hello Everyone";
+    color: blue;
+    background-color: chartreuse;
+}
+p::after{
+    content: "Thank you";
+    color: blue;
+    background-color: chartreuse;
+}
+/* UNITS */
+/* two types of units 
+1.Relative(vh-(body/view port),vw-(body/view port),%-(parent),em-(parent),rem(root element),fr()body )( better to use because responsive hoti h )
+                                     1 rem=16px; and 1em=font size of parent
+2.Absolute(px)   */
+.container{
+    border: 3px solid black;
+    font-size: 10px;
+    height: 25vh;
+    width: 50vw;
+}
+.class{
+    border: 3px solid red;
+    font-size: 4em;
+    height: 50%;
+    width: 50%;
+}
