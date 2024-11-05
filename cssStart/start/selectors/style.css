@@ -1,0 +1,76 @@
+/* element selector  
+h1{
+color: blue;
+background-color: #ffffff;
+border: 2px dotted black;
+}
+.a{
+    color: blueviolet;
+    background-color: cornflowerblue;
+}
+#c{
+    color: chocolate;
+    background-color: dimgray;
+}
+*{
+    color: red;
+    background-color: aqua;
+    border: 5px dashed greenyellow;
+}*/
+
+/*
+h1,#c{
+    background-color: black;
+} 
+div ul  p{
+    background-color: blue;
+}
+div>h1{
+    background-color: bisque;
+}
+h1+p{
+    background-color: aqua;
+}
+h2+p{
+    background-color: greenyellow;
+}
+li~li{
+    background-color: brown;
+}
+div ul span{
+    background-color: chocolate;
+}
+div h2{
+    background-color: rgb(189, 52, 153);
+}
+*{
+    background-color: rgb(228, 240, 5);
+    color: black;
+    font-size: 50px;
+}*/
+a:link{
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    background-color: aqua;
+    color: black;
+}
+a:visited{
+    color: chartreuse;
+}
+a:active{
+    color: darkmagenta;
+}
+ul li:first-child{
+    background-color: lightsalmon;
+}
+ul li:last-child {
+    background-color: rgb(133, 255, 122);
+}
+ul li:nth-child(2n+1){
+    background-color: rgb(133, 255, 122);
+}
+/* a[href="https://www.google.com"]{
+    color: brown;
+} */
