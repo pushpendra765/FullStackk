@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 5px solid black;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+
+    height: 30vh;
+    width: 40vw;
+    /* margin-bottom: 20px;
+    margin-left: 10px; */
+    margin: 50px;
+    /* margin: 10px 20px 30px 40px; */
+    /* jab 4 value h to top right bottom left */
+    /* jab 2 value hongi to first top bottom or 2nd left and right */
+    /* jab 3 value hoti to 1 top 2 left right or 3 bottom */
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    
+}
+.container1{
+    border: 5px solid black;
+    height: 30vh;
+    width: 40vw;
+}
+.a{
+    height:200px;
+    width: 200px;
+    border: 5px solid blue;
+    margin-left: 50px;
+    margin-top:50px;
+    border-radius: 50%;
+  
+} 
+.b{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top:50px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
