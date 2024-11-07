@@ -1,0 +1,59 @@
+.container{
+    border: 2px solid rgb(133, 133, 237);
+    display: flex;
+    height: 500px;
+    /* default direction is row */
+    /* flex-direction:row-reverse; */
+    flex-direction: row;
+    /* justify-content:space-evenly;  works only on main axis */
+    /* align-items: flex-end;  center  flext start*/
+    /* align-items:first baseline; */
+    /* justify-content: center;*/
+    /* align-items: center;   */
+    align-content: top;
+    flex-wrap:wrap ;
+    /* ye item ka size kam nhi krta bas new row bna deta h item k liye  */
+}
+.item{
+    border: 3px solid red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+/* 
+
+if flex direction is row
+        justify content=main axis
+        align item=cross axis
+if flex direction is column
+        justify content =cross axis
+        align item=main axis*/
+
+
+
+
+
+
+        /* flex child */
+        #item1{
+            order: 1;
+        }
+        #item2{
+            order: 2;
+            flex-basis: 300px;
+        }
+        #item3{
+            order: 3;
+            align-self: center;
+        }
+        #item4{
+            order: 4;
+            flex-shrink: 3;
+        }
+        #item5{
+            order: 5;
+            flex-grow: 55;
+        }
+        #item6{
+            order: 6;
+        }
