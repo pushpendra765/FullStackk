@@ -1,0 +1,44 @@
+/* 5types of postyion properties
+1.Static(By defalut):-jese propertites user define kr rha h vese hi rhenge change nhi hoga kuch 
+
+2.Relative:-it take its orginal postionn as origin and then left right top bottom(change kr skte h )
+3.Absolute:-element moves around the nearest position ancestor
+4.Fixed:-you can fixed any element on any position on browser
+5.Sticky :-*/
+.main{
+    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+}
+.container{
+    border: 2px solid red;
+    height: 400px;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.item1{
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+.item2{
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+    /* position: relative; */
+    /* left: 200px;
+    top: 100px; */
+    position: absolute;
+    bottom: 10px;
+}
+.item3{
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+    /* position:fixed;
+    top: 20px; */
+    position: sticky;
+    top: 20px;
+}
