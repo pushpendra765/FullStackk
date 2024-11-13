@@ -1,0 +1,18 @@
+.container1{
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+
+}
+.container2{
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+
+}
+.container3{
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+
+}
